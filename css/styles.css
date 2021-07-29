@@ -376,6 +376,8 @@ section::after {
 .skills p {
   font-size: 25px;
   color: #1d3d40;
+  text-decoration: none;
+  color: #1d3d40;
 }
 .footer {
   padding: 100px 30px;
