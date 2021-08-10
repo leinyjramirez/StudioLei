@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="Sky's the Limit Home Improvement">
-    <meta name="keywords" content="digital madia, online portfolio, design, adobe creative suite, motion graphics, rebranding, social media, infographics, 
+	<meta name="description" content="Studio Lei | Digital Portfolio">
+    <meta name="keywords" content="digital madia, online portfolio, design, adobe creative suite, motion graphics, rebranding, product packaging, social media, infographics, 
     photoshop, illustrator, indesign, after effects, animate, animations, graphic design, web design">
     <meta name="viewport" content="width=480, initial-scale=1">
     <meta name="viewport" content="width=801, initial-scale=1">
@@ -12,12 +12,34 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 
 </head>
 
 <body>
-<div class="hero">
+    <div id="mobile" class="mobile">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="mobile-content">
+          <a href="index.html" onclick="close_mobilenav()">Portfolio</a>
+          <a href="#branding" style="font-size:25px; margin-left:50px;" onclick="close_mobilenav()">Branding</a>
+          <a href="#packaging"style="font-size:25px; margin-left:50px;" onclick="close_mobilenav()">Product Packaging</a>
+          <a href="#motion"style="font-size:25px; margin-left:50px;" onclick="close_mobilenav()">Motion Graphics</a>
+          <a href="#graphic"style="font-size:25px; margin-left:50px;" onclick="close_mobilenav()">Graphic Design</a>
+          <a href="resume.html">Resume</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="mobile-social">
+            <a href="https://www.instagram.com/studiolei/" class= "fab fa-instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=100071102703350" class= "fab fa-facebook-f"></a>
+            <a href="https://www.youtube.com/channel/UCsUW-meuJddBJXmxfIXEG2w"class= "fab fa-youtube"></a>
+            <a href="https://www.linkedin.com/in/leiny-ramirez-528314109/"class= "fab fa-linkedin-in"></a>
+        </div>
+      </div>
+      <div class="mobile-menu-btn">
+      <span style="font-size:40px;cursor:pointer;color:#1d3d40;" onclick="openNav()">&#9776;</span>
+      </div>
+<div class="hero" id="home">
     <img src="images/studio-lei-logo-yellow.png" alt="studio lei logo">
     <h1>by Leiny Ramirez</h1>
 </div>
@@ -31,30 +53,69 @@
     Scroll down to see my work
     </h3>
 </div>
-<div class="scroll-container">
+<div class="scroll-container" id="branding">
     <section id="scroll" class="demo">
         <a><span></span></a>
         </section>
 </div>
-<div class="branding">
+<div class="branding" style="margin-bottom: 250px;">
     <h2>Branding</h2>
     <div class="content">
-        <img src="images/GWC_mockup copy.jpg" alt="girls who code newsletter">
+        <img src="images/disneyplus-mkp.png" alt="disney plus mockup">
     </div>
         <p>
         Medium:
         <br>
-        <br>Adobe InDesign
+        <br>Adobe Illustrator
         <br>
         <br>
         Description:
         <br>
-        <br>Girls Who Code is changing the game. They’re reaching girls around the world and are on track to close the gender gap in new entry-level 
-        tech jobs by 2027. 300K girls from grade school to college served through their in-person programming including their Summer Immersion Program, 
-        Clubs, and College Loops. Half of the girls they serve come from historically underrepresented groups, including girls who are Black, Latinx, 
-        or from low-income backgrounds. GWC was looking to create a newsletter to update their audience on new events of the organization and reach potential 
-        new members interested in dominating the computer science industry.
+        <br>
+        Disney Plus has released collections for month-long events to celebrate occasions like Pride Month and Black History month. The project was themed 
+        after Hispanic Herritage Month, featuring Latinx culture and representation both on-screen and off. This package included a full social media bundle, and 
+        a large banner for their streaming home page.
         </p>
+    </div>
+    <div class="branding">
+        <div class="content">
+            <img src="images/GWC_mockup copy.jpg" alt="girls who code newsletter">
+        </div>
+            <p>
+            Medium:
+            <br>
+            <br>Adobe InDesign, Adobe Illustrator
+            <br>
+            <br>
+            Description:
+            <br>
+            <br>Girls Who Code is changing the game. They’re reaching girls around the world and are on track to close the gender gap in new entry-level 
+            tech jobs by 2027. This scope of this project was to create a newsletter to update their audience on new events of the organization and reach potential 
+            new members interested in dominating the computer science industry.
+            </p>
+        </div>
+    
+    <div class="branding-lrg">
+        <div class="content">
+            <img src="images/starbucks-mockups.png" alt="starbucks gift cards">
+        </div>
+    </div>
+    <div class="branding-2" style="margin-bottom: 200px;">
+        <div class="content">
+            <img style="box-shadow: none;" src="images/starbucks-mockup-fnb.png" alt="starbucks gc front and back">
+            <p>
+            Medium:
+            <br>
+            <br>Adobe Illustrator
+            <br>
+            <br>
+            Description:
+            <br>
+            <br>Starbucks sells countless units of gift cards year-round. It’s a fairly easy gift that is appropriate for many occasions and famous for their unique designs. 
+            This project required six custom gift card designs. The cards had to have a minimal artistic style to match brand identity and seemlessly be integrated to their 
+            current collection. The package included three general brand designs, christmas, thank you, and happy birthday. 
+            </p>
+        </div>
     </div>
     <div class="branding-3">
         <div class="content">
@@ -68,19 +129,19 @@
             <br>
             Description:
             <br>
-            <br>Texas Beeworks is in the busineses of helping bees and beekeepers thrive. Th company has a great online presence and was in search of a brochure to advertise in 
-            the local area and neighboring cities. The custom brochure I created features information on Erika Thompson, the beekeeper, and the company she has created. Because Texas Beeworks 
+            <br>Texas Beeworks is in the busineses of helping bees and beekeepers thrive. The scope of this project was to create a brochure to advertise in 
+            the local area and neighboring cities. The custom brochure features information on Erika Thompson, the beekeeper, and the company she has created. Because Texas Beeworks 
             loves to educate their audience, the final product also included facts about bees to help promote their "saving the bees" movement.
             </p>
-        </div>
+    </div>
     <div class="branding-lrg">
         <div class="content">
         <img src="images/BTR_Cover_Final.gif" alt="boston terrier facebook cover mockup">
     </div>
     </div>
-    <div class="branding2" style="width: 70%">
+    <div class="branding-2">
         <div class="content">
-            <img style="width: 30%;" src="images/BTR_logo.jpg" alt="boston terrier rescue logo">
+            <img src="images/BTR_logo.jpg" alt="boston terrier rescue logo" style="width: 30%">
             <p>
                 Medium:
                 <br>
@@ -89,16 +150,14 @@
                 <br>
                 Description:
                 <br>
-                <br>The Boston Terrier Rescue of East Tennessee is an established 501 (c)(3) non-profit organization dedicated to rescuing. rehabilitating 
-                and rehoming Boston Terriers. They rely solely on the kindness of their donors and the income of fundraisers, partnerships and grants to 
-                sustain their establishment. The organization requested a new social media marketing package to promote their upcoming fundraiser. My branding 
-                package included media for "Bark Fest" including a new, vectorized logo, profile picture, cover photo, and banner to be used to further promote 
-                the event. I chose to animate the banner to give the page a bit of movement and highlight their adorable mascot Zeke!
+                <br>The Boston Terrier Rescue of East Tennessee is an established 501 (c)(3) non-profit organization dedicated to rescuing, rehabilitating 
+                and rehoming Boston Terriers. This branding package included media for their "Bark Fest" fundraiser including a new, vectorized logo, profile picture, 
+                cover photo, and printed banner to be used to further promote the event. I chose to animate the cover photo to give the page a bit of movement and highlight 
+                their adorable mascot Zeke!
                  <br>
-                 <br>BTR was very pleased with the social media packege, and requested a second product be created for their organization. BTR was in need of a 
-                 full color, tri-fold brochure to represent the organization and their mission to save Boston Terriers. The Brochure was printed in bulk and 
-                 handed out during fundraising events and distributed to local animal service providers to display in their lobby. The brochure catered to all 
-                 four divisions of the organization and remained consistent with their new branding. A mockup of the brochure can be seen below.
+                 <br>A second project for The Boston Terrier Rescue required the a full color, tri-fold brochure to represent the organization and their mission to save Boston Terriers. 
+                 The Brochure was to be printed in bulk and handed out during fundraising events and distributed to local animal service providers to display in their lobby. The brochure catered to all 
+                 four divisions of the organization and remained consistent with their new branding.
                 <br>
                 <br>
             </p>
@@ -106,25 +165,24 @@
     </div>
     <div class="branding-lrg">
         <div class="content">
-            <img style="box-shadow: none; margin-top: -350px; margin-bottom: 400px;" src="images/BTR_brochure-mockup.jpg" alt="Boston Terrier Rescue brochure">
+            <img style="box-shadow: none; margin-top: -350px; margin-bottom: 400px; width: 60%;" src="images/BTR_brochure-mockup.jpg" alt="Boston Terrier Rescue brochure">
         </div>
 </div>
 
-<div class="divider">
-    <h3>
-    I'm just getting started.
-    </h3>
-</div>
-<div class="scroll-container2">
+
+<div class="scroll-container2" id="packaging">
     <section id="scroll" class="demo">
         <a><span></span></a>
         </section>
 </div>
-<div class="packaging">
+<div class="packaging-lrg">
     <h2>Product Packaging</h2>
     <div class="content">
         <img src="images/kokos-mockup1_Artboard 1.png" alt="koko's ice cream mockup">
     </div>
+<div class="packaging-3">
+    <div class="content">
+    <img src="images/kokos_ice-cream_mockup-snapshot2.png" alt="Koko's nutrition label">
     <p>
         Medium:
         <br>
@@ -134,14 +192,33 @@
         Description:
         <br>
         <br>Koko's Ice Cream is a local shop in Nashville, TN who specializes in creating bright and one of a kind products full of love. Their artisan plant based ice cream
-        is the best in town and had decided to sell their product in retail stores in the US. I created a trio of labels that represented each unique flavor, but maintained a 
-        strong brand presence. 
+        is the best in town and this package was created to launch a series of labels to be sold in stores across the nation. The trio of labels represented each unique flavor, but maintained a 
+        strong brand presence. Koko's often uses clever sayings in their marketing to promote new flavors and the design included flavor-specific puns on each lid to maintain
+        their brand identity.
     </p>
+</div>
 </div>
 <div class="packaging-attachment">
     <div class="content">
-        <img src="images/kokos-mockup2-03.png">
-        <img src="images/kokos-mockup3-04.png">
+        <img src="images/kokos_ice-cream_mockup-snapshot.png" alt="Koko's lid mockup">
+    </div>
+</div>
+<div class="packaging-2">
+    <div class="content">
+        <img style="margin-top: -100px;" src="images/barkbox-mockup.png" alt="barkbox mockup">
+    </div>
+        <p>
+        Medium:
+        <br>
+        <br>Adobe Illustrator, Adobe Photoshop, Adobe Dimension
+        <br>
+        <br>
+        Description:
+        <br>
+        <br>BarkBox is notorious for their clever themes every month for pups to enjoy. They have produced themed boxes such as “Barkfest in bed”, “Sit, Stay, Spa day”, “The Muttcracker”, and many more.
+        This themed package was inspired by the television classic "I love Lucy". The “I Ruff Lucy” BarkBox was projected for September 2021 to celebrate the upcoming 70th anniversary of the show. The 
+        package included the inner lining of the box, a web banner for their website, and a social media friendly post to promote the product on their various platforms.
+        </p>
     </div>
 </div>
 <div class="packaging-2">
@@ -158,24 +235,19 @@
         <br>
         <br>Pitorro is a distilled spirit from Puerto Rico reffered to as “moonshine rum”. This centuries old spirit dates back to when Puerto Rico’s sugar cane industry 
         was booming, and as time has gone by, it has become a part of Puerto Rican tradition. El Boricuazo is a pitorro distillery that hopes to capture Puerto Rican pride 
-        with their branding to share with the world. El Boricuazo was looking for a beverage label design for the launch of their new products. Labels were to cover the full 
-        circumference of a custom glass bottle and represent the vibrant culture of Puerto Rico. El Boricuazo launched an original flavor, tamarind, and coquito for the holiday 
-        season. Each label was created in a similar style, but also unique to their flavor.
+        with their branding to share with the world. The scope of the projects was to create custom beverage label designs for the launch of their new products. El Boricuazo launched an original flavor, 
+        tamarind, and coquito flavor for the holiday season. Each label was created in a similar style, but also unique to their flavor, and as vibrant as the Puerto Rican culture they want to embody with 
+        their product.
         </p>
     </div>
 </div>
-<div class="divider">
-    <h3>
-    Keep going, it only get's better.
-    </h3>
-</div>
-<div class="scroll-container2">
+<div class="scroll-container2" id="motion">
     <section id="scroll" class="demo">
         <a><span></span></a>
         </section>
 </div>
 <div class="motion-graphics">
-    <h2>Motion Graphics</h2>
+    <h2 >Motion Graphics</h2>
     <div class="content">
         <iframe width="880" height="495" src="https://www.youtube.com/embed/0rHPG-Y0Tmc?autoplay=1&mute=1&loop=1&playlist=0rHPG-Y0Tmc" title="Motherhood" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -189,8 +261,8 @@
         Description:
         <br>
         <br>The idea of motherhood has been romanticized for ages. In reality, mothers endure through so much more than what we see on the 
-        outside. This animated infographic puts a spotlight on what truly happens behind the scenes and opens up the conversation on motherhood.
-        The motherhood experience should be normalized information. This video is one of the first steps in spreading that knowledge.
+        outside. This animated infographic puts a spotlight on what truly happens behind the scenes and opens up the conversation about motherhood.
+        This experience should be normalized information. This video is one of the first steps in spreading that knowledge.
         </p>
     <div class="content">
          <iframe width="880" height="495" src="https://www.youtube.com/embed/ArSpyGQkRs0?autoplay=1&mute=1&loop=1&playlist=ArSpyGQkRs0" title="Kinetic Type" frameborder="0" 
@@ -204,19 +276,12 @@
         <br>
         Description:
         <br>
-        <br>This project required the use of Kinetic Type. I chose the bathroom brawl scene from The Bee Movie. A true classic. 
-        <br>
-        <br>I created vector
-        imagery in Adobe Illustrator and animated them, along with type to create the composition above.
+        <br>This project required the use of Kinetic Type. I chose the bathroom brawl scene from The Bee Movie. A true classic. I created vector
+        imagery and animated them, along with type to create the composition above.
         </p>
         
 </div>
-<div class="divider">
-    <h3>
-    But wait, there's more.
-    </h3>
-</div>
-<div class="scroll-container2">
+<div class="scroll-container2" id="graphic">
     <section id="scroll" class="demo">
         <a><span></span></a>
         </section>
@@ -235,11 +300,9 @@
             <br>
             <br>When it comes to diet and exercise, there always seems to be a new sure-fire method of weight loss out there. 
             Be it Keto, Vegan, Paleo, low-carb, Atkins, or whatever Oprah is doing; there’s something out there for everyone 
-            to try. For some, it works! But each body is uniquely made and achieving different fitness goals may not always be 
-            achievable with a trendy diet. Knowing the amount of nutrients the body needs to achieve those fitness goals is the 
-            best way to notice a change and finally be rewarded for all that hard work.
-            This infographic illustrates how to calculate BMI and the amount of Macronutrients that a person would need on a 
-            daily basis to achieve weight loss, maintain current weight, or build muscle. 
+            to try. Each body is uniquely made and achieving different fitness goals may not always be achievable with a trendy diet. 
+            This infographic illustrates how to calculate the amount of Macronutrients that a person would need on a 
+            daily basis to achieve weight loss, maintain current weight, or build muscle with customized nutrient consumtion. 
             <br>
             <br>
         </p>
@@ -253,8 +316,8 @@
         <br>
         Description:
         <br>
-        <br>The first annual "Fuego Latino" music festival, brought to you by your favorite latin artists of today, was in need of
-        a poster to advertise the biggest event of the year. The poster was designed with a focus on the name of the event with a bit
+        <br>The first annual "Fuego Latino" music festival, brought to you by your favorite latin artists of today, was a student project that required
+        the creation of a full-sized poster to advertise the event. The poster was designed with a focus on the name of the event with a bit
         of latin flare. A simple, yet detailed design that stood out among compeing music festival posters.
         <br>
         <br>
@@ -318,8 +381,9 @@
     <br>
     <br>PYTHON
     </p>
+    <h5><a href="resume.html">View Resume</a></h5>
 </div>
-<div class="footer">
+<div class="footer2">
     <img src="images/studio-lei-white@4x.png" alt="studio lei logo white">
     <h3><br>Create magic out of the ordinary. Be the best in the industry.</h3>
 </div>
@@ -355,6 +419,21 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+}
+function openNav() {
+  document.getElementById("mobile").style.right = "0";
+}
+
+function closeNav() {
+  document.getElementById("mobile").style.right = "-400px";
+}
+function close_mobilenav() {
+  var x = document.getElementById("mobile");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.right = "-400px";
+  }
 }
 </script>
 </body>
