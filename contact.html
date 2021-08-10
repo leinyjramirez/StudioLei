@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Studio Lei contact page">
+    <meta name="keywords" content="digital madia, online portfolio, design, adobe creative suite, motion graphics, rebranding, social media, infographics, 
+    photoshop, illustrator, indesign, after effects, animate, animations, graphic design, web design, contact, resume">
+    <meta name="viewport" content="width=480, initial-scale=1">
+    <meta name="viewport" content="width=801, initial-scale=1">
+	<link rel= "stylesheet" href = "css/style.css">
+	<title>Studio Lei | Contact</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+</head>
+<body>
+    <div id="mobile" class="mobile">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="mobile-content">
+          <a href="index.html" onclick="close_mobilenav()">Portfolio</a>
+          <a href="index.html#branding" style="font-size:25px; margin-left:50px;" onclick="close_mobilenav()">Branding</a>
+          <a href="index.html#packaging"style="font-size:25px; margin-left:50px;" onclick="close_mobilenav()">Product Packaging</a>
+          <a href="index.html#motion"style="font-size:25px; margin-left:50px;" onclick="close_mobilenav()">Motion Graphics</a>
+          <a href="index.html#graphic"style="font-size:25px; margin-left:50px;" onclick="close_mobilenav()">Graphic Design</a>
+          <a href="resume.html">Resume</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="mobile-social">
+            <a href="https://www.instagram.com/studiolei/" class= "fab fa-instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=100071102703350" class= "fab fa-facebook-f"></a>
+            <a href="https://www.youtube.com/channel/UCsUW-meuJddBJXmxfIXEG2w"class= "fab fa-youtube"></a>
+            <a href="https://www.linkedin.com/in/leiny-ramirez-528314109/"class= "fab fa-linkedin-in"></a>
+        </div>
+      </div>
+      <div class="mobile-menu-btn">
+      <span style="font-size:40px;cursor:pointer;color:#1d3d40;" onclick="openNav()">&#9776;</span>
+      </div>
+<h2 style="margin-top: 5%;">Contact</h2>
+<div class="contact">
+    <div class="info">
+        <table>
+            <tr>
+                <td><a href="mailto:leinyramirez@studiolei.space">leinyramirez@studiolei.space</a></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://www.instagram.com/studiolei/" class= "fab fa-instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100071102703350" class= "fab fa-facebook-f"></a>
+                <a href="https://www.youtube.com/channel/UCsUW-meuJddBJXmxfIXEG2w"class= "fab fa-youtube"></a>
+                <a href="https://www.linkedin.com/in/leiny-ramirez-528314109/"class= "fab fa-linkedin-in"></a>
+                </td>
+            </tr>
+          </table>
+    </div>
+</div>
+
+<div class="footer2" style="padding: 50px 30px;">
+    <img src="images/studio-lei-white@4x.png" alt="studio lei logo white">
+    <h3><br>Create magic out of the ordinary. Be the best in the industry.</h3>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mobile").style.right = "0";
+}
+
+function closeNav() {
+  document.getElementById("mobile").style.right = "-400px";
+}
+function close_mobilenav() {
+  var x = document.getElementById("mobile");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.right = "-400px";
+  }
+}
+function FormValidation() {
+  var x = document.forms["contact"]["comment"].value;
+  if (x == "") {
+    alert("Please describe your inquiry.");
+    return false;
+  }
+}
+
+</script>
+</body>
