@@ -587,6 +587,8 @@ section::after {
 .footer2 {
   padding: 50px 30px;
   background-color: #1d3d40;
+  position: absolute;
+  width: 100%;
 }
 .footer2 img {
   display: block;
