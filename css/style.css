@@ -111,6 +111,7 @@ h6 {
   background-position-x: center;
   height: 900px;
   padding: 20px 50px;
+  margin: 0 auto;
 }
 .hero img {
   width: 60%;
